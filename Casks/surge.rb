@@ -7,4 +7,5 @@ cask 'surge' do
   homepage 'https://nssurge.com/'
 
   app 'Surge.app'
+  binary '#{appdir}/Surge.app/Contents/Applications/surge-cli'
 end
